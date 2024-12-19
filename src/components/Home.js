@@ -15,7 +15,7 @@ const Home = () => {
         <div className="modal-overlay" onClick={toggleModal}>
           <div
             className="modal-content"
-            onClick={(e) => e.stopPropagation()} // Prevent closing modal when clicking inside
+            onClick={(e) => e.stopPropagation()} 
           >
             <div className="gstt">
               <p

@@ -257,6 +257,25 @@
     margin-top: 10px;
   }
 
+  .close-modal-btn {
+    display: flex;
+
+    padding: 8px 16px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+  }
+  .modal-overlay .modal-content .gstt {
+   display:flex;
+   justify-content: center;
+    background-color:white;
+    color: black;
+   
+  }
   .modal-overlay .modal-content .gst-container .rummy-circle .get {
     display: flex;
     flex-direction: column;
@@ -276,8 +295,28 @@
 }
 
 
-@media (max-width:645px) and (min-width:375px) {
+@media (max-width:750px) and (min-width:375px) {
 
+  .modal-overlay .modal-content.gstt {
+ 
+    background-color:white;
+    color: black;
+    display:flex;
+    justify-content: center;
+  }
+  
+  .close-modal-btn {
+    display: flex;
+
+    padding: 8px 16px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+  }
 
   .modal-overlay .modal-content .gst-container .rummy-circle {
     display: flex;
@@ -308,11 +347,30 @@
 
 @media (max-width:645px) and (min-width:325px) {
 
+  .modal-overlay .modal-content.gstt {
+   
+    background-color:white;
+    color: black;
+    display:flex;
+   justify-content: center;
+  }
   .modal-overlay .modal-content .gst-container .rummy-circle {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 10px;
+  }
+  .close-modal-btn {
+    display: flex;
+
+    padding: 8px 16px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
   }
 
   .modal-overlay .modal-content .gst-container .rummy-circle .paid {
@@ -329,7 +387,7 @@
     width: 60px;
   }
 
-  .line {
+  .line {`
     display: none
   }
 }
